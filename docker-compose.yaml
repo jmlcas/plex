@@ -10,6 +10,7 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
       - VERSION=docker
+      - PLEX_CLAIM=       #optional
     volumes:
       - ./config:/config
       - ./tvseries:/tv

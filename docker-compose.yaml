@@ -1,9 +1,7 @@
-version: "3.3"
-
 services:
 
   plex:
-    image: linuxserver/plex
+    image: lscr.io/linuxserver/plex:latest
     container_name: plex
     ports: 
       - "8200:32400" 
